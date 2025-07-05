@@ -28,7 +28,7 @@ def Score3():
 
 app = App(width=500, height=500, layout="grid")
 text = Text(app, text="Score1.0", grid = [0,0])
-button1 = PushButton(app, text = " màu đỏ", command=Score1, grid=[1, 0])
-button2 = PushButton(app, text = " màu xanh", command=Score2, grid=[2, 0])
-button3 = PushButton(app, text = " màu lá", command=Score3, grid=[3, 0])
+button1 = PushButton(app, text=" màu đỏ", command=Score1, grid=[1, 0])
+button2 = PushButton(app, text=" màu xanh", command=Score2, grid=[2, 0])
+button3 = PushButton(app, text=" màu lá", command=Score3, grid=[3, 0])
 app.display()
